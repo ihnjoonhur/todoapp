@@ -1,0 +1,28 @@
+{
+  "name": "todo-completed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/open-api": "^2.20.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.11",
+    "mongodb": "^5.8.0",
+    "mongoose": "^5.13.20",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.0.1",
+    "serverless-http": "^3.2.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
