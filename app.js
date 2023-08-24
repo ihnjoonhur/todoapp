@@ -25,7 +25,8 @@ const Item = mongoose.model("Item", itemsSchema);
 const defaultItems = [
   { name: "Welcome to the todolist app!"},
   { name: "Hit the + button to add a new item." },
-  { name: "Click the box to delete an item." }
+  { name: "Click the box to delete an item." },
+  { name: "add '/' at the end of link and customize list! For example: /grocery" }
 ];
 
 const listSchema = {
